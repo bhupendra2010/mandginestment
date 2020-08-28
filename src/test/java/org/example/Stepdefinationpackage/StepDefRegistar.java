@@ -1,4 +1,4 @@
-package Stepdefinationpackage;
+package org.example.Stepdefinationpackage;
 
 import PageObjectPackage.RegistarPage;
 import cucumber.api.java.en.Then;
@@ -13,10 +13,11 @@ registarPage.contact();
 
     @When("^fill all the Details$")
     public void fill_all_the_Details() throws Throwable {
-
+    registarPage.Details();
     }
 
     @Then("^User should create an account$")
     public void user_should_create_an_account() throws Throwable {
+        registarPage.forms();
     }
 }

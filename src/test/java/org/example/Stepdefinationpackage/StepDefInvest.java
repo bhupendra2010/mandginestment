@@ -1,4 +1,4 @@
-package Stepdefinationpackage;
+package org.example.Stepdefinationpackage;
 
 import PageObjectPackage.InvestPage;
 import cucumber.api.java.en.Given;
